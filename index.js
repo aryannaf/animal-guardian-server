@@ -5,6 +5,7 @@ const cors = require('cors');
 
 app.use(express.json());
 app.use(cors());
+app.use(express.static('public'));
 
 const categoryRoutes = require('./routes/categoryRoute');
 const speciesRoutes = require('./routes/speciesRoute');
