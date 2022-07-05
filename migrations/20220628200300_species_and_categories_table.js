@@ -1,9 +1,3 @@
-// exports.up = async(knex) => {
-//     return knex.schema.alterTable('categories', (table) => {
-//         table.string('categoryName').notNullable();
-//     })
-// }
-
 exports.up = function(knex) {
     return knex.schema
       .createTable('categories', (table) => {
