@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const knex = require('knex')(require('../knexfile').development);
+const knex = require('knex')(require('../knexfile'));
 
 router.get("/", (req, res) => {
     knex('categories')
