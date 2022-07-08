@@ -11,7 +11,7 @@ const categoryRoutes = require('./routes/categoryRoute');
 const speciesRoutes = require('./routes/speciesRoute');
 
 app.get("/", (req, res) => {
-    res.send("VR ANIMAL RESCUE");
+    res.send("ANIMAL GUARDIAN");
 });
 
 app.use('/categories', categoryRoutes);
